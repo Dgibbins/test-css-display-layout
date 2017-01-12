@@ -1,0 +1,81 @@
+/* Move your styles here when you're ready to clean up your HTML file */
+/* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+
+*{
+  box-sizing: border-box;
+  /*overflow: scroll;*/
+  }
+  h1{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 46px;
+    line-height: 25px;
+    font-size: 60px;
+  }
+  header{
+    text-align: center;
+    width: 1690px;
+  }
+  body{
+    /*overflow: hidden;*/
+  }
+  ul {
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+    width: 1690px;
+  }
+  nav{
+    width: 1690px;
+  }
+  nav ul li {
+    width: initial;
+    display: inline-block;
+    background-color: lightgrey;
+    padding: 7px 8px;
+    color: white;
+    font-weight: bolder;
+    font-size: 34px;
+  }
+  section.photo ul {
+    width: 1690px;
+    text-align: center;
+    margin: 0 0;
+    /*display: inline-block;*/
+    padding: 0 0;
+  }
+  section.photo ul li {
+      display: inline-block;
+      width: 500px;
+      overflow: hidden;
+  }
+  section.photo ul li p {
+    background: #eece2a;
+    color: blue;
+    width: 500px;
+    margin: 0;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  img,
+  p {
+    width: inherit;
+  }
+  p {
+    margin-top: 10px;
+    margin-left: 95px;
+    width: 1505px;
+    margin-right: 225px;
+    background: aquamarine;
+    padding: 20px;
+    font-size: x-large;
+  }
+footer {
+    width: 1690px;
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 30px;
+    font-size: 22px;
+}
